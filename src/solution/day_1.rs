@@ -1,4 +1,5 @@
-use std::{fs::File, io::{BufReader, BufRead}, path::Path, collections::HashMap};
+use std::path::Path;
+use std::collections::HashMap;
 use crate::{Solution, utils::read_input_to_string_vec};
 
 pub struct Day1 {
@@ -99,7 +100,7 @@ impl Solution for Day1 {
 }
 
 #[cfg(test)]
-mod test {
+mod tests {
     use super::*;
 
     const TEST_DATA: &str = "1abc2\npqr3stu8vwx\na1b2c3d4e5f\ntreb7uchet";

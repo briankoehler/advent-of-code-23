@@ -1,5 +1,7 @@
-use std::{path::Path, collections::HashMap};
-use crate::{Solution, utils::read_input_to_string_vec};
+use std::path::Path;
+use std::collections::HashMap;
+use crate::Solution;
+use crate::utils::read_input_to_string_vec;
 
 pub struct Day2 {
     input: Vec<String>,

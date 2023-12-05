@@ -1,10 +1,10 @@
 use std::path::Path;
 use clap::Parser;
 use macros::day_handler;
-use day::day_1::Day1;
-use day::day_2::Day2;
+use solution::day_1::Day1;
+use solution::day_2::Day2;
 
-mod day;
+mod solution;
 mod utils;
 
 #[derive(Parser)]
@@ -31,9 +31,6 @@ fn main() {
 
     let day = args.day;
     let part = args.part;
-    day_handler!([
-        (1, Day1),
-        (2, Day2)
-    ]);
+    day_handler!([1, 2]);
 }
 
