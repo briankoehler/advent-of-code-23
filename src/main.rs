@@ -1,8 +1,6 @@
 use std::path::Path;
 use clap::Parser;
 use macros::day_handler;
-use solution::day_1::Day1;
-use solution::day_2::Day2;
 
 mod solution;
 mod utils;
